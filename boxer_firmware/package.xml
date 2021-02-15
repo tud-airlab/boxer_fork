@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>boxer_firmware</name>
+  <version>0.0.1</version>
+  <description>Firmware for boxer MCUs, TDCU and LSPCU</description>
+
+  <maintainer email="jgorchynski@clearpathrobotics.com">Jeffrey Gorchynski</maintainer>
+
+  <license>Clearpath Proprietary</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend version_gte="0.4.2">firmware_components</build_depend>
+  <build_depend>rosbash</build_depend>
+  <build_depend>rosserial_client</build_depend>
+  <build_depend>stm32plus-small-f4-25000000</build_depend>
+  <build_depend>gcc-arm-none-eabi</build_depend>
+
+  <depend>cpr_common_msgs</depend>
+  <depend>boxer_msgs</depend>
+  <depend>led_array_msgs</depend>
+
+  <exec_depend>dfu-util</exec_depend>
+  <exec_depend>python-cffi</exec_depend>
+  <exec_depend>openocd</exec_depend>
+  <exec_depend>python-tftpy</exec_depend>
+
+  <test_depend>roslint</test_depend>
+</package>
