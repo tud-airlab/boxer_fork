@@ -12,8 +12,8 @@
 
   <depend>gazebo_plugins</depend>
   <depend>gazebo_ros</depend>
-  <depend>cpr_plugin_tools</depend>
-  <depend>generic_gpio_plugin</depend>
+  <!-- <depend>cpr_plugin_tools</depend> -->
+  <!-- <depend>generic_gpio_plugin</depend> -->
   <depend>roscpp</depend>
   <depend>boxer_msgs</depend>
   <depend>std_msgs</depend>
