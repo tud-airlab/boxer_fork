@@ -23,10 +23,10 @@
 
   <gazebo>
     <!-- Plugin for ros_control (actuate drive motors, lift). -->
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <!-- <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
       <robotNamespace>$(arg robot_namespace)</robotNamespace>
       <robotParam>robot_description</robotParam>
-    </plugin>
+    </plugin> -->
 
     <!-- Groud Truth Position, Pose, and Rates plugin -->
     <plugin name="gazebo_ros_p3d" filename="libgazebo_ros_p3d.so">
