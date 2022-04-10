@@ -4,5 +4,9 @@ project(boxer_viz)
 
 find_package(catkin REQUIRED)
 
-catkin_package(
-   LIBRARIES ${PROJECT_NAME})
+catkin_package(LIBRARIES ${PROJECT_NAME})
+
+install(
+  DIRECTORY launch rviz
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)

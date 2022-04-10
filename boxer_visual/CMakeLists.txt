@@ -4,5 +4,9 @@ project(boxer_visual)
 
 find_package(catkin REQUIRED)
 
-catkin_package(
-   LIBRARIES ${PROJECT_NAME})
+catkin_package(LIBRARIES ${PROJECT_NAME})
+
+install(
+  DIRECTORY config models theme
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)

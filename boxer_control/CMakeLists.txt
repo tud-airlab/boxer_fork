@@ -4,5 +4,9 @@ project(boxer_control)
 
 find_package(catkin REQUIRED)
 
-catkin_package(
-   LIBRARIES ${PROJECT_NAME})
+catkin_package(LIBRARIES ${PROJECT_NAME})
+
+install(
+  DIRECTORY launch config
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
