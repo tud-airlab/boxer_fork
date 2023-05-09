@@ -27,9 +27,7 @@
   <exec_depend>nodelet</exec_depend>
   <exec_depend>robot_localization</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>boxer_visual</exec_depend>
   <exec_depend>teleop_twist_joy</exec_depend>
-  <exec_depend>visual_indication</exec_depend>
 
   <test_depend>roslaunch</test_depend>
   <test_depend>roslint</test_depend>
